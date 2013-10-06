@@ -1,0 +1,11 @@
+{
+  "name": "Tweet",
+  "type": "record",
+  "namespace": "com.springdeveloper.domain.gen",
+  "fields": [
+      {"name": "id",        "type": "long"},
+      {"name": "createdAt", "type": "long"},
+      {"name": "fromUser",  "type": "string"},
+      {"name": "text",      "type": "string"}
+  ]
+}
